@@ -1,0 +1,25 @@
+# Node
+node_modules/
+dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Environment & OS
+.env
+.DS_Store
+*.log
+
+# Environment-specific files
+.env.*
+!.env.example

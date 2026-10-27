@@ -1,0 +1,102 @@
+{
+  "model_name": "Multinomial Naive Bayes + TF-IDF",
+  "algorithm": "MultinomialNB(alpha=0.2)",
+  "vectorizer": "TfidfVectorizer(ngram_range=(1, 2), max_features=5000, sublinear_tf=True)",
+  "trained_at": "2026-10-12T20:47:06.400542",
+  "dataset_total": 5574,
+  "train_size": 4459,
+  "test_size": 1115,
+  "accuracy": 0.9839,
+  "precision": 0.9781,
+  "recall": 0.8993,
+  "f1_score": 0.9371,
+  "confusion_matrix": {
+    "tn": 963,
+    "fp": 3,
+    "fn": 15,
+    "tp": 134,
+    "total_test": 1115
+  },
+  "top_spam_keywords": [
+    {
+      "keyword": "claim",
+      "weight": 5.359
+    },
+    {
+      "keyword": "prize",
+      "weight": 5.147
+    },
+    {
+      "keyword": "150p",
+      "weight": 4.912
+    },
+    {
+      "keyword": "18",
+      "weight": 4.761
+    },
+    {
+      "keyword": "guaranteed",
+      "weight": 4.615
+    },
+    {
+      "keyword": "tone",
+      "weight": 4.532
+    },
+    {
+      "keyword": "1000",
+      "weight": 4.509
+    },
+    {
+      "keyword": "cs",
+      "weight": 4.506
+    },
+    {
+      "keyword": "500",
+      "weight": 4.491
+    },
+    {
+      "keyword": "ringtone",
+      "weight": 4.462
+    },
+    {
+      "keyword": "landline",
+      "weight": 4.422
+    },
+    {
+      "keyword": "awarded",
+      "weight": 4.403
+    },
+    {
+      "keyword": "www",
+      "weight": 4.39
+    },
+    {
+      "keyword": "150ppm",
+      "weight": 4.325
+    },
+    {
+      "keyword": "uk",
+      "weight": 4.305
+    },
+    {
+      "keyword": "000",
+      "weight": 4.25
+    },
+    {
+      "keyword": "http",
+      "weight": 4.219
+    },
+    {
+      "keyword": "5000",
+      "weight": 4.187
+    },
+    {
+      "keyword": "collection",
+      "weight": 4.117
+    },
+    {
+      "keyword": "1000 cash",
+      "weight": 4.116
+    }
+  ]
+}
